@@ -1,0 +1,26 @@
+name: Test SSH
+
+on:
+  workflow_dispatch:
+  push:
+    branches: '*'
+
+jobs:
+  mh-imi:
+    runs-on: ubuntu-latest
+    env:
+      SSH_KEY: ${{ secrets.WEBSSHKEY }}
+      SSH_HOST: ${{ secrets.HOST1 }}
+      KNOWN_HOST: 'infrastructure.f4.htw-berlin.de ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFrJk3IjoJf61+rHU/ZMyD4ud488roXMJaa2NEeBiNruZGIw7k4YBLaZgCgfQNk+T/vzXTls+XIuY5S6rI8FD2I='
+    steps:
+      - uses: actions/checkout@v3
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ env.SSH_KEY }}
+      - name: Create Known Hosts File
+        run: |
+            echo $KNOWN_HOST > ~/.ssh/known_hosts
+            less ~/.ssh/known_hosts
+      - name: Test Connection
+        run: |
+          ssh $SSH_HOST "ls -lart"
