@@ -10,13 +10,14 @@ categories:
 
 ## tl;dr:
 
-Die Rolle des BAFöG-Beauftragten ist es, den Mitwirkungs und Auskunftsflichten (BAFöG [§ 47 Auskunftspflichten](https://www.gesetze-im-internet.de/baf_g/__47.html) und [§48 Mitwirkung von Ausbildungsstätten](https://www.gesetze-im-internet.de/baf_g/__48.html)) nachzukommen, d.h. i.d.R. diverse Nachweise zu bestätigen, insbesondere:
+Die Rolle des BAFöG-Beauftragten ist es, den Mitwirkungs und Auskunftsflichten der Hochschule nachzukommen (BAFöG [§ 47 Auskunftspflichten](https://www.gesetze-im-internet.de/baf_g/__47.html) und [§48 Mitwirkung von Ausbildungsstätten](https://www.gesetze-im-internet.de/baf_g/__48.html)) - d.h. i.d.R. diverse Nachweise zu bestätigen, insbesondere:
 
 - als [Leistungsnachweis nach dem 4. Semester](#leistungsbescheinigung-nach-dem-4-fachsemester) können Sie einfach Ihren LSF-Nachweis an das Studierendenwerk schicken. **(Bei Verzögerungen aber Vorsicht, s.u.)**
 
-- für die für das [Auslandspraktikum](#auslandspraktikum) notwendige Bescheinigung kommen Sie bitte nach der Genehmigung des Praktikums mit dem vorbereiteten Formblatt 6 in meine Sprechstunde.
+- für die für das [Auslandspraktikum](#auslandspraktikum) notwendige Bescheinigung kommen Sie bitte nach der Genehmigung des Praktikums durch den Praktikumsbeauftragten mit dem vorbereiteten Formblatt 6 in meine Sprechstunde.
 
 - [Link zu den Formularen des Bafög-Amts](https://www.xn--bafg-7qa.de/bafoeg/de/antrag-stellen/alle-antragsformulare/alle-antragsformulare_node.html)
+
 ## Weitere Informationen
 
 **Disclaimer:** Hier stehen Infos/Hinweise, von denen ich annehme, dass Sie für IMIs wichtig sind, ohne Anspruch auf Vollständigkeit und Richtigkeit - Regelungen ändern sich, Sie sind selbst dafür verantwortlich, sich bei den geeigneten Stellen (aktuelle Gesetze, Ämter...) kundig zu machen! Falls Sie hier veraltete oder falsche Informationen finden, schicken Sie mir gerne eine email oder einen Pull-Request.
