@@ -6,7 +6,7 @@ on:
     branches: '*'
 
 jobs:
-  mh-imi:
+  infrastructure:
     runs-on: ubuntu-latest
     env:
       SSH_KEY: ${{ secrets.WEBSSHKEY }}
@@ -20,7 +20,6 @@ jobs:
       - name: Create Known Hosts File
         run: |
             echo $KNOWN_HOST > ~/.ssh/known_hosts
-            less ~/.ssh/known_hosts
       - name: Test Connection
         run: |
           ssh $SSH_HOST "ls -lart"

@@ -1,13 +1,18 @@
 ---
-title: '8 - Gilded Rose'
+title: 'Gilded Rose Kata for Info3'
 author: kleinen
 draft: false
-weight: 80
+courses: info3
+tools: []
+tags: ['design', 'refactoring', 'kata', 'testing']
+courses: ['info3']
 ---
-[![The Gilded Rose](../images/The_Gilded_Rose.jpg)](../images/The_Gilded_Rose.webp)
+
+![The Gilded Rose](./The_Gilded_Rose.jpg)
 
 <small class = "float-right">The Gilded Rose, Trade District, [World of Warcraft.](https://wowpedia.fandom.com/wiki/Gilded_Rose)</small>
 
+This has been a lab exercise for info3 for many years.
 
 # The Gilded Rose Kata
 
