@@ -14,6 +14,9 @@ courses: ['info3']
 
 This has been a lab exercise for info3 for many years.
 
+Python Scaffold: [https://github.com/htw-imi-info3/gilded-rose](https://github.com/htw-imi-info3/gilded-rose)
+
+
 # The Gilded Rose Kata
 
 -- Working with Legacy Code and Refactoring to Patterns --
@@ -26,16 +29,18 @@ The Term 'Kata' is a Metaphor taken from Martial Arts for a Pattern of Movements
 ### Solutions and Simplifications
 
 You will find many solutions for (and variants of) this kata on the web. I recommend watching **[Sandi Metz' Talk "All the Little Things"](https://www.youtube.com/watch?v=8bZh5LMaSmE)** (RailsConf 2014) which demonstrates
-the refactoring part while maintaining green tests. Be aware that she simplified the kata for the talk: the tests are already there, she works with a specification / test suite that only contains the happy path and last not least she changes the Item class, which is not allowed in this original Kata!
+the refactoring part while maintaining green tests. Be aware that she simplified the kata for the talk: the tests are already there, she works with a specification / test suite that only contains the happy path and last not least she changes the Item class, which is not allowed in the original Kata!
 
 ### Untested and Untestable Legacy Code
 
 The original Gilded Rose Kata starts with a class in Java or C# where the item collection is private static - thus can't be modified. As the update() method takes no parameters, this class can't be tested without modifications. This would have required applying automatic refactorings
-to make the code testable in the first place. Instead, I provide you with a ready test scaffold (see below) - you still need to write a test suite for the legacy code, which serve both as characterization tests to understand and assert the legacy behaviour and as regression tests to enable the refactoring.
+to make the code testable in the first place. Although this is a significant part of the original Kata, Python as a quite dynamic language allows for injecting test(able) extensions, alternatives or wrappers anywhere you want - in short, I found no way to transfer this in any meaningful way to python.
+
+Consequently, I provide you with a ready test scaffold (see below) - you still need to write a test suite for the legacy code, which serve both as characterization tests to understand and assert the legacy behaviour and as regression tests to enable the refactoring.
 
 ### The Core: Refactoring to Patterns
 
-The Core of the Kata to practice refactoring to patterns in order to enable the implentation of a new feature:
+The Core of the Kata is to practice refactoring to patterns in order to enable the implentation of a new feature:
 
 1. Refactor to make the Change Easy
 2. Implement the Easy Change
