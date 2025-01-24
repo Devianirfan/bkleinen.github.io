@@ -20,10 +20,14 @@ hugo2 :  node_modules open # open_current # open_m1 # openH
 -  hugo --navigateToChanged --buildDrafts --baseURL "http://localhost:$(port)/~kleinen/"  -p $(port) server
 
 
+# without drafts, more like production
+portProduction=4444
+baseURLProduction=http://localhost:$(portProduction)
+production : openP # open_current # open_m1 # openH
+-  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURLProduction)"  -p $(portProduction) server
 
-hugoP: port=4444
-hugoP :  node_modules open # open_current # open_m1 # openH
--  hugo --disableFastRender --navigateToChanged --buildFuture --baseURL "$(baseURL)"  -p $(port) server
+openP:
+- open $(baseURLProduction)
 
 
 build:
