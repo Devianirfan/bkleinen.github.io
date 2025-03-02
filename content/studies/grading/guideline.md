@@ -45,7 +45,7 @@ adhere to the grammar and spelling rules of the respective language.
 
 ## Star Gradings for Exercises
 
-- where applicable -
+- where applicable - 
 
 | Stars         | Meaning                                                      |
 |:--------------|:-------------------------------------------------------------|
@@ -56,3 +56,5 @@ adhere to the grammar and spelling rules of the respective language.
 | **\*----**    | Satisfactory: Nothing worked, but you had a good report.     |
 | **-----**     | Nothing worked, but you managed to scrape together a report. Or you did a million bells and whistles, but turned in a half-page report using bullet lists of misspelled sentence fragements that are, however, technically a report on time. |
 | X             | Late work, not handed in                                     |
+
+4 Stars are full (usually 5/5) points, 5 Stars equals 6/5 points and is very seldom.
