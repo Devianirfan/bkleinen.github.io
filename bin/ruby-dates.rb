@@ -33,7 +33,7 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("02.04.2025"),
+  first_day: Date.parse("04.04.2025"),
   day_diff: 2,
   two_lectures: false,
   step: 7
@@ -42,33 +42,18 @@ course_dates = CourseDates.new(
 # 2. Prüfungszeitraum (Wiederholungsprüfungen) 21.09.2023 – 07.10.2023
 # Semesterdaten
 semester_dates = SemesterDates.new(
-semester_start: Date.parse("01.10.2024"),
-semester_end: Date.parse("08.02.2025"),
+semester_start: Date.parse("01.04.2025"),
+semester_end: Date.parse("26.07.2025"),
 holidays: {
-  "23.12.2024" => "Winterpause",
-  "24.12.2024" => "Winterpause",
-  "25.12.2024" => "Winterpause",
-  "26.12.2024" => "Winterpause",
-  "27.12.2024" => "Winterpause",
-  "28.12.2024" => "Winterpause",
-  "29.12.2024" => "Winterpause",
-  "30.12.2024" => "Winterpause",
-  "31.12.2024" => "Winterpause",
-  "01.01.2025" => "Winterpause",
-  "02.01.2025" => "Winterpause",
-  "03.01.2025" => "Winterpause",
-  "04.01.2025" => "Winterpause",
-
-
-  # "01.01.2024" => "Neujahr",
-
- #  "07.04.2023" => "Ostern",
- #  "10.04.2023" => "Ostern",
- #  "18.05.2023" => "Himmelfahrt",
- #  "19.05.2023" => "Himmelfahrt",
- #  "22.05.2023" => "Vorlesungsfrei",
- #  "29.05.2023" => "Pfingsten",
- #  "04.08.2023" => "Showtime",
+  "18.04.2025" => "Karfreitag",
+  "21.04.2025" => "Ostermontag",
+  "01.05.2025" => "Tag der Arbeit",
+  "08.05.2025" => "einmaliger Feiertag anlässlich des 80. Jahrestags der Befreiung vom Nationalsozialismus und des Endes des Zweiten Weltkriegs",
+  "29.05.2025" => "Himmelfahrt",
+  "30.05.2025" => "Himmelfahrt",
+  "31.05.2025" => "Himmelfahrt",
+  "09.06.2025" => "Pfingstmontag",
+  "25.07.2025" => "Showtime",
   },
 reject_span:[]
 )
