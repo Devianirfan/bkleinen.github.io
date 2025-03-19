@@ -97,6 +97,8 @@ shows many variables/values useful for debugging.
 
 ### subtypes within classes section
 
+(see the debug section in the page footer)
+
 | Path                      | classes_type  |
 |:--------------------------|:--------------|
 | /classes                  | all_classes   |
