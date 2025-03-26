@@ -33,8 +33,8 @@ require_relative './lib_ruby_dates.rb'
 #|14 | 30 | Mon 24/07/2023 |
 #
 course_dates = CourseDates.new(
-  first_day: Date.parse("01.04.2025"),
-  day_diff: 2,
+  first_day: Date.parse("03.04.2025"),
+  day_diff: 5,
   two_lectures: true,
   step: 7
 )

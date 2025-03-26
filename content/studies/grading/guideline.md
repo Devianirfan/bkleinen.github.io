@@ -9,9 +9,9 @@ layout: page
 ## What to hand in
 The assignments will clearly state wether you need to hand in a LabReport as PDF, source code or both.
 
-*   if both PDF and source code have to be submitted, upload two files: a PDF and a zip with the source code. Please do **not** include the PDF in the ZIP file.
-*   If only a PDF has to be submitted, hand in the PDF. If only source code has to be submitted, hand in only the zip file.
-*   As for the zipped source code, it's basically as simple as zipping together the sources you've downloaded from github and uploading that File.
+*   if both PDF and source code have to be submitted, always upload the PDF report as a separate file.
+* depending on the class, source code will be submitted using a zip file or via a shared git repo.
+* in any case, **do not** include the pdf in the source code. Upload it seperately to Moodle.
 
 *   **Submit your complete work on time**. There is no point in emailing me if you didn&#8217;t. Everybody has a cold now and then, but if you miss just one week (and your group wasn&#8217;t able to upload it for you&#8230;) you still have the chance of getting enough points for a 1.0 as there is enough slack in the grading. If you become seriously ill and miss more than one week, make sure you collect medical certificates (ärztliche Atteste) immediately and email me/talk to me asap and we will find a solution.
 *   **Submissions not adhering to these guidelines will not be graded.**
