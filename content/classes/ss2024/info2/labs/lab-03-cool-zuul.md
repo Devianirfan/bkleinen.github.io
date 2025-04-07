@@ -9,7 +9,7 @@ weight: 930
 ## Learning Goals
 
 After this lab you should be able to agree with each of the following statements. This looks like a lot, but it is all repetition from what you learned in Info1. Ideally you agree with each statement even before starting the lab. 
-
+ 
 I remember programming concepts concerning classes and objects:
 * I know the difference between classes and objects. 
 * I can instantiate an object. 
