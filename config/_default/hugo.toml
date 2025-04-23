@@ -9,6 +9,7 @@ enableGitInfo = true
 canonifyURLs = true
 ignoreFiles = ['README\.MD$', 'readme\.md$']
 staticDir2 = ['static-snippets']
+ignoreLogs = ['warning-goldmark-raw-html']
 [module]
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
