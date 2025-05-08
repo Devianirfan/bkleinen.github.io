@@ -1,0 +1,21 @@
+name: Test Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print hello
+        run: echo "If you see this, then the pipeline is working!"
+
+      - name: List files
+        run: ls -la
